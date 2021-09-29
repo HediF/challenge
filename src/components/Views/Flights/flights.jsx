@@ -1,3 +1,8 @@
+/* 
+    Class component to display all the launches of SpaceX and information about the launchpad used for the 
+    flight with the possibility of filtering the flights based on whether or not they have been successful
+*/
+
 import React, { Component } from 'react';
 import MiddlePanel from '../../MiddlePanel/middlePanel';
 import * as GLOBAL_CONSTANTS from '../../../GlobalConstants';

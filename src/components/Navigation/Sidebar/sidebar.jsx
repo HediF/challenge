@@ -1,3 +1,5 @@
+/* Constant that displays the sidebar component and a backdrop when the window size drops to mobile size */
+
 import React from 'react';
 import './sidebar.css';
 

@@ -1,3 +1,6 @@
+/* Reusable component for history item */
+
+
 import React from 'react';
 import './historyItem.css';
 

@@ -1,3 +1,5 @@
+/* Class component that contains the navigation items used for the routing of the user and displays the sidebar component on window size change */
+
 import React, { Component } from 'react';
 import NavigationItem from './NavigationItem/navigationItem';
 import * as GLOBAL_CONSTANTS from '../../GlobalConstants';

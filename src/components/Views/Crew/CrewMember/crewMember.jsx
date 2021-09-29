@@ -1,3 +1,5 @@
+/* Reusable component containing the elements for a single crew member card of SpaceX  */
+
 import React from 'react';
 import './crewMember.css';
 

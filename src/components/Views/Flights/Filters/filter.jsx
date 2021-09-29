@@ -1,3 +1,5 @@
+/* Component that shows a button for filtering flights */
+
 import React from 'react';
 import './filter.css';
 

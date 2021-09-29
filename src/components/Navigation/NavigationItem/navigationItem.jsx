@@ -1,3 +1,6 @@
+/* Reusable component that contains a single navigation item */
+
+
 import React from 'react';
 import './navigationItem.css';
 

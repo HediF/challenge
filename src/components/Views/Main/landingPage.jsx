@@ -1,3 +1,5 @@
+/* Component that displays generic information about SpaceX */
+
 import React, { Component } from 'react';
 import MiddlePanel from '../../MiddlePanel/middlePanel';
 import './landingPage.css'

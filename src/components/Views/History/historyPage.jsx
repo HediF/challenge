@@ -1,3 +1,5 @@
+/* Component to display a view of historical events of SpaceX */
+
 import React, { Component } from 'react';
 import MiddlePanel from '../../MiddlePanel/middlePanel';
 import * as GLOBAL_CONSTANTS from '../../../GlobalConstants';

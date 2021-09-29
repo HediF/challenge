@@ -1,3 +1,5 @@
+/* Class component that renders the list of all crew members of SpaceX within the middlepanel container */
+
 import React, { Component } from 'react';
 import MiddlePanel from '../../MiddlePanel/middlePanel';
 import Navigation from '../../Navigation/navigation';
