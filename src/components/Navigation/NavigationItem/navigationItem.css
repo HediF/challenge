@@ -1,0 +1,22 @@
+.NavigationItem{
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.NavigationItem a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    margin-right: 15px;
+}
+
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.active {
+    color: #40A4C8;
+}

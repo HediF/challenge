@@ -1,0 +1,41 @@
+.filters-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.launches-container{
+    color: black;
+    background-color: #a9a9a9;
+    width: 90%;
+    font-family: fantasy;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.launch-item {
+    height: fit-content;
+    border-bottom: 1px solid grey;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.launch-item-name {
+    color: brown;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.launch-item-details {
+    margin-top: 20px;
+}
+
+.display-launchpad-info {
+    margin-top: 20px;
+}
+
+.launchpad-image {
+    width: 200px;
+    position: relative;
+    float: right;
+}

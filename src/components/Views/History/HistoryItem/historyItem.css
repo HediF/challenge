@@ -1,0 +1,36 @@
+.history-card-container {
+    background-color: darkgray;
+    border-radius: 10px;
+    font-family: fantasy;
+    font-size: 20px;
+    min-height: 200px;
+    padding: 10px;
+    min-width: 10px;
+}
+
+.history-row-name {
+    color: brown;
+}
+
+.history-item-title {
+    text-align: center;
+    color: brown;
+}
+
+.history-item-description {
+    padding: 10px;
+}
+
+.history-item-date {
+    position: relative;
+    font-size: 16px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.link {
+    word-break: break-all;
+}
+
+

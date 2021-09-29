@@ -1,0 +1,16 @@
+.filter {
+    height: 42px;
+    background: brown;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-family: inherit;
+    font-size: 1em;
+    box-shadow: #494949 2px 2px 2px;
+    margin: 10px;
+}
+
+.filter:hover {
+    background-color: #4f1515;
+}
+
