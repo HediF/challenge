@@ -4,7 +4,7 @@ import React from 'react';
 import './middlePanel.css'
 
 const middlePanel = (props) => (
-        <div className="middlePanel">
+        <div className="middlePanel" id="middlePanel">
                 {props.children}
         </div>
 );

@@ -8,6 +8,7 @@ const navigationItem = (props) => (
         <div className="NavigationItem">
             <a  href={props.link}
                 onClick={() => props.clicked()}
+                id={props.children}
                 className={props.active? "active" : null}>
                 {props.children}
             </a>

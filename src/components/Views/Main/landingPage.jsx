@@ -38,20 +38,21 @@ export default class landingPage extends Component {
 
     // Method to display to general information regarding SpaceX from the JSON object in the state
     onRenderGeneralInformation(){
-        if(this.state.generalInformation != null) {
+        if(this.state.generalInformation) {
+            let infos = this.state.generalInformation;
             return (
-                <div className="information-container">
-                    <div className=""><b >CEO: </b> {this.state.generalInformation.ceo}</div>
-                    <div className=""><b >COO: </b> {this.state.generalInformation.coo}</div>
-                    <div className=""><b >CTO: </b> {this.state.generalInformation.cto}</div>
-                    <div className=""><b >Number of employees: </b> {this.state.generalInformation.employees}</div>
-                    <div className=""><b >Founded: </b> {this.state.generalInformation.founded}</div>
-                    <div className=""><b >Founder: </b> {this.state.generalInformation.founder}</div>
-                    <div className=""><b >Address: </b> {this.state.generalInformation.headquarters.address}</div>
-                    <div className=""><b >City: </b> {this.state.generalInformation.headquarters.city}</div>
-                    <div className=""><b >State: </b> {this.state.generalInformation.headquarters.state}</div>
-                    <div className=""><b >Summary: </b> {this.state.generalInformation.summary}</div>
-                    <div className=""><b >Vehicles: </b> {this.state.generalInformation.vehicles}</div>
+                <div className="information-container" id="information-container">
+                    <div className=""><b >CEO: </b> {infos.ceo}</div>
+                    <div className=""><b >COO: </b> {infos.coo}</div>
+                    <div className=""><b >CTO: </b> {infos.cto}</div>
+                    <div className=""><b >Number of employees: </b> {infos.employees}</div>
+                    <div className=""><b >Founded: </b> {infos.founded}</div>
+                    <div className=""><b >Founder: </b> {infos.founder}</div>
+                    <div className=""><b >Address: </b> {infos.headquarters.address}</div>
+                    <div className=""><b >City: </b> {infos.headquarters.city}</div>
+                    <div className=""><b >State: </b> {infos.headquarters.state}</div>
+                    <div className=""><b >Summary: </b> {infos.summary}</div>
+                    <div className=""><b >Vehicles: </b> {infos.vehicles}</div>
                 </div>      
 
             )
@@ -62,7 +63,7 @@ export default class landingPage extends Component {
         return (
             <>
                 <MiddlePanel>
-                    <p className="title">General information</p>
+                    <p className="title" id="title">General information</p>
                     {this.onRenderGeneralInformation()}
                 </MiddlePanel>
             </>

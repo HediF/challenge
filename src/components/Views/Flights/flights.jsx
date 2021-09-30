@@ -77,7 +77,7 @@ export default class flights extends Component {
             .filter((element) => {
                 return element.success
             }).map((launch,index) => {
-                return this.returnElement(index,launch,new Boolean(launch.success));
+                return this.returnElement(index,launch,Boolean(launch.success));
             });
         break;
         case FILTERS_ENUM.FAILED_FLIGHTS:
@@ -85,12 +85,12 @@ export default class flights extends Component {
             .filter((element) => {
                 return !element.success
             }).map((launch,index) => {
-                return this.returnElement(index,launch,new Boolean(launch.success));
+                return this.returnElement(index,launch,Boolean(launch.success));
             });
         break;
         default:
             flights =  this.state.launches.map((launch,index) => {
-                return this.returnElement(index,launch,new Boolean(launch.success));
+                return this.returnElement(index,launch,Boolean(launch.success));
             });    
       }
       return flights;
@@ -101,7 +101,7 @@ export default class flights extends Component {
         let launchpadInfos = this.state.launchepads ? this.state.launchepads.filter(entity => entity.id === launch.launchpad) : void(0);
         return (
             <div className="launch-item" key={index}>
-                <img className="launchpad-image" src={launchpadInfos[0].images.large}/>
+                <img className="launchpad-image" alt="launchpad" src={launchpadInfos[0].images.large}/>
                 <div className="launch-item-name">{launch.name}</div>
                 <div>Flight number: {launch.flight_number}</div>
                 <div className="launch-item-details">Description: {launch.details ? launch.details : "No details available"}</div>
